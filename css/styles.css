@@ -1,0 +1,166 @@
+body {
+    margin: 0px;
+    background-color: aliceblue;
+    font-family: 'Nerko One', cursive;
+    margin-top: 80px;
+}
+
+body h1 {
+  text-align: center;
+  font-size: 71px;
+}
+
+
+.navbar {
+    border: 1px solid black;
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: flex;
+    z-index: 100;
+    
+}
+.ml-auto, .mx-auto {
+    margin-left: auto!important;
+}
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-container {
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.product-container img{
+        width: 300px;
+        margin-bottom: 10px;
+}
+
+.product-container h2 {
+    margin: 10px 15px;
+}
+
+/*Boton*/
+button{
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.button-checkout{
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA; /* blue */
+    transition-duration: 0.2s;
+    position:absolute ;
+    right:15px;
+    bottom: 15px;
+}
+.button-checkout:hover {
+    background-color: #008CBA; /* Green */
+    color: white;
+}
+
+
+.button-add {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */
+    transition-duration: 0.4s;
+    position:absolute ;
+    right:15px;
+    bottom: 10px;
+}
+  
+.button-add:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+/*LOGIN*/
+.loginbody{
+    background-image: url('/img/login/fondo-mate-login.jpg');
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+.login {
+    height: 100%;
+  }
+  
+  .login {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+  }
+  
+  .form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+
+
+  /*Footer*/
+  footer {
+    background: black;
+    padding: 1rem 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 20px;
+}
+ 
+ 
+ 
+ 
+ 
+  /*  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  } */
